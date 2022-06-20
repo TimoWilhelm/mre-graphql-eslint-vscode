@@ -1,0 +1,37 @@
+{
+    "root": true,
+    "env": {
+        "es6": true,
+        "node": true,
+        "jest": true
+    },
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2017
+    },
+    "overrides": [
+        {
+            "files": [
+                "*.graphql"
+            ],
+            "extends": "plugin:@graphql-eslint/schema-recommended",
+            "parserOptions": {
+                "operations": "./**/*.graphql"
+            },
+            "rules": {
+                "@graphql-eslint/description-style": [
+                    "off"
+                ],
+                "@graphql-eslint/known-directives": [
+                    "off"
+                ],
+                "@graphql-eslint/naming-convention": [
+                    "off"
+                ],
+                "@graphql-eslint/strict-id-in-types": [
+                    "off"
+                ]
+            }
+        }
+    ]
+}

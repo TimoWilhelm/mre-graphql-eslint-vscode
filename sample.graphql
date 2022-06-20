@@ -1,0 +1,6 @@
+query SampleItems {
+  sample_item {
+    id
+    created_at
+  }
+} 

@@ -1,0 +1,11 @@
+{
+  "name": "graphql-eslint-vscode",
+  "version": "0.0.0",
+  "description": "",
+  "dependencies": {
+    "eslint": "^8.8.0",
+    "graphql": "^16.5.0",
+    "@graphql-eslint/eslint-plugin": "^3.10.4"
+  },
+  "license": "MIT"
+}
